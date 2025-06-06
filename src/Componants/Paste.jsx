@@ -83,7 +83,7 @@ const Paste = () => {
                         (() => {
                           const lines = paste.content.split('\n');
                           if (lines.length > 2) {
-                            return lines.slice(0, 2).join('\n') + '...';
+                            return lines.slice(0, 2).join('\n') + '...' || paste.content.length.slice(0,100) + '...';
                           }
                           return paste.content;
                         })()

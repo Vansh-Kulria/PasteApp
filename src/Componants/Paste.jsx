@@ -89,7 +89,7 @@ const Paste = () => {
                         })()
                       }
                     </div>
-                    <div className="flex flex-wrap gap-1 justify-end absolute right-2 bottom-3">
+                    <div className="flex flex-wrap gap-1 justify-end absolute right-2 bottom-2 ">
                       <Link
                         to={`/?pasteId=${paste._id}`}
                         className="px-2 py-2 rounded-full bg-yellow-300 text-blue-800 font-semibold shadow hover:bg-yellow-400 transition flex items-center gap-2"
